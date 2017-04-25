@@ -60,7 +60,6 @@ extension ViewController {
          //粒子边缘的颜色
          emitter.shadowColor = UIColor.blue.cgColor
          */
-        
     }
     // 点赞喜欢效果
     fileprivate func likeShow() {
@@ -97,7 +96,7 @@ extension ViewController {
 extension ViewController {
     
     /// ScaleImageToSpecticalWidth
-    /// params: except width  and original image
+    /// params: width  and original image
     /// return a scale UIImage
     fileprivate func scaleImageToWidth(width: CGFloat, image: UIImage) -> UIImage {
         if image.size.width < width {
